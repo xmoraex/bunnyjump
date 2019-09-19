@@ -5,7 +5,11 @@
 [node name="platform sand" type="StaticBody2D"]
 
 [node name="Sprite" type="Sprite" parent="."]
+position = Vector2( -3, 7 )
+scale = Vector2( 0.615789, 0.702128 )
 texture = ExtResource( 1 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2( -3.33965, 6.47205 )
+scale = Vector2( 0.611602, 0.705689 )
 polygon = PoolVector2Array( -170.313, -47.876, 173.71, -47.876, 186.942, -41.2601, 189.882, -29.4987, 190.617, -14.7968, 159.009, 35.9246, -157.816, 47.6861, -164.432, 41.8053, -192.366, -16.267, -189.425, -38.3198 )

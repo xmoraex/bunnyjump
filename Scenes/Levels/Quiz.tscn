@@ -8,13 +8,13 @@
 [node name="Quiz" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 98.0625, 133.886 )
+position = Vector2( 165.923, 192.144 )
 
 [node name="platform sand" parent="." instance=ExtResource( 2 )]
-position = Vector2( -10.301, 281.473 )
+position = Vector2( 89.9367, 318.146 )
 
 [node name="platform cake" parent="." instance=ExtResource( 3 )]
-position = Vector2( 858.029, 245.904 )
+position = Vector2( 791.406, 340.285 )
 
 [node name="platform grass" parent="." instance=ExtResource( 4 )]
-position = Vector2( 529.432, 471.346 )
+position = Vector2( 421.795, 460.865 )
