@@ -1,0 +1,553 @@
+[gd_resource type="TileSet" load_steps=16 format=2]
+
+[ext_resource path="res://platformergraphics-candycaverns/Vector/sheet.svg" type="Texture" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 35.2541, 31.1525 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 104.067, 31.1525 )
+
+[sub_resource type="RectangleShape2D" id=11]
+extents = Vector2( 31.8973, 16.0473 )
+
+[sub_resource type="RectangleShape2D" id=12]
+extents = Vector2( 31.8973, 16.0473 )
+
+[sub_resource type="RectangleShape2D" id=13]
+extents = Vector2( 67.1426, 16.0473 )
+
+[sub_resource type="RectangleShape2D" id=14]
+extents = Vector2( 34.3884, 17.3795 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 30.2191, 31.1525 )
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 31.8974, 31.1525 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 31.8974, 29.4741 )
+
+[sub_resource type="RectangleShape2D" id=6]
+extents = Vector2( 33.5757, 31.1525 )
+
+[sub_resource type="RectangleShape2D" id=7]
+extents = Vector2( 33.5757, 31.1525 )
+
+[sub_resource type="RectangleShape2D" id=8]
+extents = Vector2( 31.8973, 31.1525 )
+
+[sub_resource type="SegmentShape2D" id=9]
+a = Vector2( -35.2367, -58.0061 )
+b = Vector2( 36.9324, 14.163 )
+
+[sub_resource type="SegmentShape2D" id=10]
+a = Vector2( 36.9324, -61.3628 )
+b = Vector2( -36.9151, 12.4847 )
+
+[resource]
+0/name = "1"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 70, 140, 70, 70 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 35, 35 )
+0/navigation_offset = Vector2( 35, 35 )
+0/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 35, 35 )
+} ]
+0/z_index = 0
+1/name = "2"
+1/texture = ExtResource( 1 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 140, 140, 210, 70 )
+1/tile_mode = 0
+1/occluder_offset = Vector2( 105, 35 )
+1/navigation_offset = Vector2( 105, 35 )
+1/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 2 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 105, 35 )
+} ]
+1/z_index = 0
+2/name = "3"
+2/texture = ExtResource( 1 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 350, 140, 70, 70 )
+2/tile_mode = 0
+2/occluder_offset = Vector2( 35, 35 )
+2/navigation_offset = Vector2( 35, 35 )
+2/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 3 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 35, 35 )
+} ]
+2/z_index = 0
+3/name = "4"
+3/texture = ExtResource( 1 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 350, 210, 70, 70 )
+3/tile_mode = 0
+3/occluder_offset = Vector2( 35, 35 )
+3/navigation_offset = Vector2( 35, 35 )
+3/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 4 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 35, 35 )
+} ]
+3/z_index = 0
+4/name = "5"
+4/texture = ExtResource( 1 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 280, 210, 70, 70 )
+4/tile_mode = 0
+4/occluder_offset = Vector2( 35, 35 )
+4/navigation_offset = Vector2( 35, 35 )
+4/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 5 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 35, 35 )
+} ]
+4/z_index = 0
+5/name = "6"
+5/texture = ExtResource( 1 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 210, 210, 70, 70 )
+5/tile_mode = 0
+5/occluder_offset = Vector2( 35, 35 )
+5/navigation_offset = Vector2( 35, 35 )
+5/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 6 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 35, 35 )
+} ]
+5/z_index = 0
+6/name = "7"
+6/texture = ExtResource( 1 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 70, 210, 70, 70 )
+6/tile_mode = 0
+6/occluder_offset = Vector2( 35, 35 )
+6/navigation_offset = Vector2( 35, 35 )
+6/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 7 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 35, 35 )
+} ]
+6/z_index = 0
+7/name = "8"
+7/texture = ExtResource( 1 )
+7/tex_offset = Vector2( 0, 0 )
+7/modulate = Color( 1, 1, 1, 1 )
+7/region = Rect2( 140, 210, 70, 70 )
+7/tile_mode = 0
+7/occluder_offset = Vector2( 35, 35 )
+7/navigation_offset = Vector2( 35, 35 )
+7/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 8 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 35, 35 )
+} ]
+7/z_index = 0
+8/name = "9"
+8/texture = ExtResource( 1 )
+8/tex_offset = Vector2( 0, 0 )
+8/modulate = Color( 1, 1, 1, 1 )
+8/region = Rect2( 420, 140, 70, 140 )
+8/tile_mode = 0
+8/occluder_offset = Vector2( 35, 70 )
+8/navigation_offset = Vector2( 35, 70 )
+8/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 9 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 35, 70 )
+} ]
+8/z_index = 0
+9/name = "10"
+9/texture = ExtResource( 1 )
+9/tex_offset = Vector2( 0, 0 )
+9/modulate = Color( 1, 1, 1, 1 )
+9/region = Rect2( 490, 140, 70, 140 )
+9/tile_mode = 0
+9/occluder_offset = Vector2( 35, 70 )
+9/navigation_offset = Vector2( 35, 70 )
+9/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 10 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 35, 70 )
+} ]
+9/z_index = 0
+10/name = "11"
+10/texture = ExtResource( 1 )
+10/tex_offset = Vector2( 0, 0 )
+10/modulate = Color( 1, 1, 1, 1 )
+10/region = Rect2( 560, 140, 70, 40 )
+10/tile_mode = 0
+10/occluder_offset = Vector2( 35, 20 )
+10/navigation_offset = Vector2( 35, 20 )
+10/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 11 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 35, 20 )
+} ]
+10/z_index = 0
+11/name = "12"
+11/texture = ExtResource( 1 )
+11/tex_offset = Vector2( 0, 0 )
+11/modulate = Color( 1, 1, 1, 1 )
+11/region = Rect2( 630, 140, 70, 40 )
+11/tile_mode = 0
+11/occluder_offset = Vector2( 35, 20 )
+11/navigation_offset = Vector2( 35, 20 )
+11/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 12 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 35, 20 )
+} ]
+11/z_index = 0
+12/name = "13"
+12/texture = ExtResource( 1 )
+12/tex_offset = Vector2( 0, 0 )
+12/modulate = Color( 1, 1, 1, 1 )
+12/region = Rect2( 700, 140, 70, 40 )
+12/tile_mode = 0
+12/occluder_offset = Vector2( 35, 20 )
+12/navigation_offset = Vector2( 35, 20 )
+12/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 12 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 35, 20 )
+} ]
+12/z_index = 0
+13/name = "14"
+13/texture = ExtResource( 1 )
+13/tex_offset = Vector2( 0, 0 )
+13/modulate = Color( 1, 1, 1, 1 )
+13/region = Rect2( 770, 140, 70, 40 )
+13/tile_mode = 0
+13/occluder_offset = Vector2( 35, 20 )
+13/navigation_offset = Vector2( 35, 20 )
+13/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 12 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 35, 20 )
+} ]
+13/z_index = 0
+14/name = "15"
+14/texture = ExtResource( 1 )
+14/tex_offset = Vector2( 0, 0 )
+14/modulate = Color( 1, 1, 1, 1 )
+14/region = Rect2( 700, 210, 140, 40 )
+14/tile_mode = 0
+14/occluder_offset = Vector2( 70, 20 )
+14/navigation_offset = Vector2( 70, 20 )
+14/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 13 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 70, 20 )
+} ]
+14/z_index = 0
+15/name = "16"
+15/texture = ExtResource( 1 )
+15/tex_offset = Vector2( 0, 0 )
+15/modulate = Color( 1, 1, 1, 1 )
+15/region = Rect2( 560, 210, 140, 40 )
+15/tile_mode = 0
+15/occluder_offset = Vector2( 70, 20 )
+15/navigation_offset = Vector2( 70, 20 )
+15/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 13 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 70, 20 )
+} ]
+15/z_index = 0
+16/name = "17"
+16/texture = ExtResource( 1 )
+16/tex_offset = Vector2( 0, 0 )
+16/modulate = Color( 1, 1, 1, 1 )
+16/region = Rect2( 350, 420, 70, 40 )
+16/tile_mode = 0
+16/occluder_offset = Vector2( 35, 20 )
+16/navigation_offset = Vector2( 35, 20 )
+16/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 14 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 35, 20 )
+} ]
+16/z_index = 0
+17/name = "18"
+17/texture = ExtResource( 1 )
+17/tex_offset = Vector2( 0, 0 )
+17/modulate = Color( 1, 1, 1, 1 )
+17/region = Rect2( 420, 420, 70, 40 )
+17/tile_mode = 0
+17/occluder_offset = Vector2( 35, 20 )
+17/navigation_offset = Vector2( 35, 20 )
+17/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 14 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 35, 20 )
+} ]
+17/z_index = 0
+18/name = "19"
+18/texture = ExtResource( 1 )
+18/tex_offset = Vector2( 0, 0 )
+18/modulate = Color( 1, 1, 1, 1 )
+18/region = Rect2( 490, 420, 70, 40 )
+18/tile_mode = 0
+18/occluder_offset = Vector2( 35, 20 )
+18/navigation_offset = Vector2( 35, 20 )
+18/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 14 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 35, 20 )
+} ]
+18/z_index = 0
+19/name = "20"
+19/texture = ExtResource( 1 )
+19/tex_offset = Vector2( 0, 0 )
+19/modulate = Color( 1, 1, 1, 1 )
+19/region = Rect2( 560, 290, 70, 60 )
+19/tile_mode = 0
+19/occluder_offset = Vector2( 35, 30 )
+19/navigation_offset = Vector2( 35, 30 )
+19/shapes = [  ]
+19/z_index = 0
+20/name = "21"
+20/texture = ExtResource( 1 )
+20/tex_offset = Vector2( 0, 0 )
+20/modulate = Color( 1, 1, 1, 1 )
+20/region = Rect2( 490, 280, 20, 70 )
+20/tile_mode = 0
+20/occluder_offset = Vector2( 10, 35 )
+20/navigation_offset = Vector2( 10, 35 )
+20/shapes = [  ]
+20/z_index = 0
+21/name = "22"
+21/texture = ExtResource( 1 )
+21/tex_offset = Vector2( 0, 0 )
+21/modulate = Color( 1, 1, 1, 1 )
+21/region = Rect2( 350, 280, 70, 70 )
+21/tile_mode = 0
+21/occluder_offset = Vector2( 35, 35 )
+21/navigation_offset = Vector2( 35, 35 )
+21/shapes = [  ]
+21/z_index = 0
+22/name = "23"
+22/texture = ExtResource( 1 )
+22/tex_offset = Vector2( 0, 0 )
+22/modulate = Color( 1, 1, 1, 1 )
+22/region = Rect2( 210, 290, 70, 60 )
+22/tile_mode = 0
+22/occluder_offset = Vector2( 35, 30 )
+22/navigation_offset = Vector2( 35, 30 )
+22/shapes = [  ]
+22/z_index = 0
+23/name = "24"
+23/texture = ExtResource( 1 )
+23/tex_offset = Vector2( 0, 0 )
+23/modulate = Color( 1, 1, 1, 1 )
+23/region = Rect2( 280, 290, 70, 60 )
+23/tile_mode = 0
+23/occluder_offset = Vector2( 35, 30 )
+23/navigation_offset = Vector2( 35, 30 )
+23/shapes = [  ]
+23/z_index = 0
+24/name = "25"
+24/texture = ExtResource( 1 )
+24/tex_offset = Vector2( 0, 0 )
+24/modulate = Color( 1, 1, 1, 1 )
+24/region = Rect2( 140, 290, 70, 60 )
+24/tile_mode = 0
+24/occluder_offset = Vector2( 35, 30 )
+24/navigation_offset = Vector2( 35, 30 )
+24/shapes = [  ]
+24/z_index = 0
+25/name = "26"
+25/texture = ExtResource( 1 )
+25/tex_offset = Vector2( 0, 0 )
+25/modulate = Color( 1, 1, 1, 1 )
+25/region = Rect2( 70, 290, 70, 60 )
+25/tile_mode = 0
+25/occluder_offset = Vector2( 35, 30 )
+25/navigation_offset = Vector2( 35, 30 )
+25/shapes = [  ]
+25/z_index = 0
+26/name = "27"
+26/texture = ExtResource( 1 )
+26/tex_offset = Vector2( 0, 0 )
+26/modulate = Color( 1, 1, 1, 1 )
+26/region = Rect2( 70, 350, 70, 70 )
+26/tile_mode = 0
+26/occluder_offset = Vector2( 35, 35 )
+26/navigation_offset = Vector2( 35, 35 )
+26/shapes = [  ]
+26/z_index = 0
+27/name = "28"
+27/texture = ExtResource( 1 )
+27/tex_offset = Vector2( 0, 0 )
+27/modulate = Color( 1, 1, 1, 1 )
+27/region = Rect2( 140, 350, 70, 70 )
+27/tile_mode = 0
+27/occluder_offset = Vector2( 35, 35 )
+27/navigation_offset = Vector2( 35, 35 )
+27/shapes = [  ]
+27/z_index = 0
+28/name = "29"
+28/texture = ExtResource( 1 )
+28/tex_offset = Vector2( 0, 0 )
+28/modulate = Color( 1, 1, 1, 1 )
+28/region = Rect2( 210, 350, 70, 70 )
+28/tile_mode = 0
+28/occluder_offset = Vector2( 35, 35 )
+28/navigation_offset = Vector2( 35, 35 )
+28/shapes = [  ]
+28/z_index = 0
+29/name = "30"
+29/texture = ExtResource( 1 )
+29/tex_offset = Vector2( 0, 0 )
+29/modulate = Color( 1, 1, 1, 1 )
+29/region = Rect2( 280, 350, 70, 70 )
+29/tile_mode = 0
+29/occluder_offset = Vector2( 35, 35 )
+29/navigation_offset = Vector2( 35, 35 )
+29/shapes = [  ]
+29/z_index = 0
+30/name = "31"
+30/texture = ExtResource( 1 )
+30/tex_offset = Vector2( 0, 0 )
+30/modulate = Color( 1, 1, 1, 1 )
+30/region = Rect2( 350, 350, 70, 70 )
+30/tile_mode = 0
+30/occluder_offset = Vector2( 35, 35 )
+30/navigation_offset = Vector2( 35, 35 )
+30/shapes = [  ]
+30/z_index = 0
+31/name = "32"
+31/texture = ExtResource( 1 )
+31/tex_offset = Vector2( 0, 0 )
+31/modulate = Color( 1, 1, 1, 1 )
+31/region = Rect2( 420, 350, 70, 70 )
+31/tile_mode = 0
+31/occluder_offset = Vector2( 35, 35 )
+31/navigation_offset = Vector2( 35, 35 )
+31/shapes = [  ]
+31/z_index = 0
+32/name = "33"
+32/texture = ExtResource( 1 )
+32/tex_offset = Vector2( 0, 0 )
+32/modulate = Color( 1, 1, 1, 1 )
+32/region = Rect2( 490, 350, 70, 70 )
+32/tile_mode = 0
+32/occluder_offset = Vector2( 35, 35 )
+32/navigation_offset = Vector2( 35, 35 )
+32/shapes = [  ]
+32/z_index = 0
+33/name = "34"
+33/texture = ExtResource( 1 )
+33/tex_offset = Vector2( 0, 0 )
+33/modulate = Color( 1, 1, 1, 1 )
+33/region = Rect2( 560, 350, 70, 70 )
+33/tile_mode = 0
+33/occluder_offset = Vector2( 35, 35 )
+33/navigation_offset = Vector2( 35, 35 )
+33/shapes = [  ]
+33/z_index = 0
+34/name = "35"
+34/texture = ExtResource( 1 )
+34/tex_offset = Vector2( 0, 0 )
+34/modulate = Color( 1, 1, 1, 1 )
+34/region = Rect2( 630, 280, 70, 140 )
+34/tile_mode = 0
+34/occluder_offset = Vector2( 35, 70 )
+34/navigation_offset = Vector2( 35, 70 )
+34/shapes = [  ]
+34/z_index = 0
+35/name = "36"
+35/texture = ExtResource( 1 )
+35/tex_offset = Vector2( 0, 0 )
+35/modulate = Color( 1, 1, 1, 1 )
+35/region = Rect2( 700, 280, 70, 140 )
+35/tile_mode = 0
+35/occluder_offset = Vector2( 35, 70 )
+35/navigation_offset = Vector2( 35, 70 )
+35/shapes = [  ]
+35/z_index = 0
+36/name = "37"
+36/texture = ExtResource( 1 )
+36/tex_offset = Vector2( 0, 0 )
+36/modulate = Color( 1, 1, 1, 1 )
+36/region = Rect2( 770, 280, 70, 140 )
+36/tile_mode = 0
+36/occluder_offset = Vector2( 35, 70 )
+36/navigation_offset = Vector2( 35, 70 )
+36/shapes = [  ]
+36/z_index = 0
+37/name = "38"
+37/texture = ExtResource( 1 )
+37/tex_offset = Vector2( 0, 0 )
+37/modulate = Color( 1, 1, 1, 1 )
+37/region = Rect2( 840, 170, 70, 250 )
+37/tile_mode = 0
+37/occluder_offset = Vector2( 35, 125 )
+37/navigation_offset = Vector2( 35, 125 )
+37/shapes = [  ]
+37/z_index = 0
+38/name = "39"
+38/texture = ExtResource( 1 )
+38/tex_offset = Vector2( 0, 0 )
+38/modulate = Color( 1, 1, 1, 1 )
+38/region = Rect2( 910, 170, 70, 250 )
+38/tile_mode = 0
+38/occluder_offset = Vector2( 35, 125 )
+38/navigation_offset = Vector2( 35, 125 )
+38/shapes = [  ]
+38/z_index = 0

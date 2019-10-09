@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://platform/moving_platform.gd" type="Script" id=1]
+[ext_resource path="res://platformergraphics-candycaverns/Tiles/chocoHalfAltRight.png" type="Texture" id=2]
+
+[node name="moving_platform" type="Node2D"]
+position = Vector2( 300, 0 )
+script = ExtResource( 1 )
+
+[node name="platform" type="RigidBody2D" parent="."]
+mode = 3
+
+[node name="Sprite" type="Sprite" parent="platform"]
+position = Vector2( -17.2227, 52.7242 )
+scale = Vector2( 1.61295, 1.3619 )
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="platform"]
+position = Vector2( -21.7034, 31.414 )
+scale = Vector2( 0.632555, 0.879002 )
+polygon = PoolVector2Array( -82.2069, -30.1659, 92.803, -29.8447, 91.0872, 25.7177, -81.6349, 25.0754 )
